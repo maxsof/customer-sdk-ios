@@ -1591,5 +1591,9 @@
     
 }
 
+- (void)removeActiveDrivers {
+    [_liveMonitor removeActiveDrivers];
+}
+
 
 @end

@@ -758,5 +758,9 @@
     }
 }
 
-
+- (void)removeActiveDrivers {
+    if (self.activeDrivers) {
+        [self.activeDrivers removeAllObjects];
+    }
+}
 @end

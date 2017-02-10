@@ -388,4 +388,9 @@
  */
 - (NSArray * _Nullable)monitoredWaypoints;
 
+/**
+ * workaround to handle few active drivers
+ */
+- (void)removeActiveDrivers;
+
 @end

@@ -39,6 +39,6 @@
 -(GGDriver * _Nullable)getDriverWithUUID:(NSString * _Nonnull)uuid;
 -(GGDriver * _Nullable)getDriverWithID:(NSNumber * _Nonnull)driverId;
 
-
+- (void)removeActiveDrivers;
 
 @end
